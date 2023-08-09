@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px){
+    .btn-danger{
+        margin-top: 10px;
+    }
+
+    .mascotte img{
+        height: 350px;
+    }
+
+    #section1 .mascotte {
+        margin-top: 0px;
+    }
+
+    #section2 > div:nth-child(1) {
+        margin: 0 1%;
+    }
+
+    #section2 .formation{
+        margin-bottom: 2%;
+    }
+
+
+    #section3 .cours{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section3 .bloc1,
+    #section3 .bloc2,
+    #section3 .bloc3,
+    #section3 .bloc4{
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    #section5 button{
+        margin: 0;
+    }
+
+    #section6 .image{
+        margin-bottom: 10%;
+        margin-left: 4%;
+        width: 92%;
+    }
+
+    #section7 .part{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #section7 .partner{
+        border: 1px solid white;
+        text-align: center;
+        width: 45%;
+        box-shadow: 1px 1px 3px 0px gray;
+        margin: 3% auto;
+    }
+
+    #section7 button {
+        margin: 2% 35%;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
